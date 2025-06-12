@@ -1,0 +1,71 @@
+VisualElement {
+}
+
+.CenteredPanel {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: none;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.45);
+}
+
+.BigLogo {
+    width: 350px;
+    height: 120px;
+    background-image: url("project://database/Assets/_Game/Scenes/Boot/Logos/Splash_Logo_Unity.png?fileID=2800000&guid=b10487235c3f69646988496d332fd222&type=3#Splash_Logo_Unity");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.VerticalSeparator {
+    flex-grow: 1;
+    position: relative;
+    width: 5px;
+    height: 120px;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.SmallLogo {
+    flex-grow: 1;
+    align-self: center;
+    background-image: url("project://database/Assets/_Game/Scenes/Boot/Logos/Splash_Logo_Unity.png?fileID=2800000&guid=b10487235c3f69646988496d332fd222&type=3#Splash_Logo_Unity");
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 120px;
+    -unity-background-scale-mode: scale-to-fit;
+    position: relative;
+    translate: 0 0;
+    margin-right: 28px;
+    margin-left: 28px;
+    max-width: 240px;
+}
+
+.Paragraph {
+    position: absolute;
+    width: 75%;
+    align-self: auto;
+    bottom: auto;
+    height: auto;
+    top: 62%;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.66);
+    -unity-font-definition: url("project://database/Assets/_Game/Scenes/Boot/Font/SegoeUI/SegoeUI-Regular.ttf?fileID=12800000&guid=92fa34a5952b7444d95fa41522b6718c&type=3#SegoeUI-Regular");
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    letter-spacing: 0;
+    -unity-paragraph-spacing: -30px;
+    word-spacing: 0;
+    white-space: pre-wrap;
+}
