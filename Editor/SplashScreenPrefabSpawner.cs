@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
 
@@ -10,3 +11,4 @@ namespace UnityEssentials
             ResourceLoaderEditor.InstantiatePrefab("UnityEssentials_Prefab_SplashScreen", "Splash Screen");
     }
 }
+#endif
