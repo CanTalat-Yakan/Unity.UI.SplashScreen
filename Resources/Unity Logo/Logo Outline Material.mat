@@ -99,9 +99,9 @@ Material:
     - _ExcludeFromTUAndAA: 0
     - _Exposure: 0
     - _Exposure_Gradient_Strength: 1
-    - _Exposure_Map_Strength: 1
+    - _Exposure_Map_Strength: 0
     - _Exposure_Mask: 1
-    - _Exposure_Mask_Falloff_Strength: 1.5
+    - _Exposure_Mask_Falloff_Strength: 5
     - _Exposure_Mask_Strength: 1.5
     - _Exposure_Strength: 1
     - _Float: 1
