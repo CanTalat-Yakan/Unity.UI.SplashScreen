@@ -1,7 +1,7 @@
 {
   "name": "com.unityessentials.uisplashscreen",
   "version": "1.0.0",
-  "displayName": "Unity UI SplashScreen",
+  "displayName": "Unity UI Toolkit SplashScreen",
   "description": "This is a part of the UnityEssentials Ecosystem",
   "unity": "6000.0",
   "unityRelease": null,

@@ -1,5 +1,5 @@
 {
-    "name": "UnityEssentials.SplashScreen.Editor",
+    "name": "UnityEssentials.UIToolkitSplashScreen.Editor",
     "rootNamespace": "UnityEssentials",
     "references": [
         "GUID:0c677762363426746abd6799d82d40b8"
